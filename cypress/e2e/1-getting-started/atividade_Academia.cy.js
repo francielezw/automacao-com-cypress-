@@ -8,7 +8,6 @@ describe('Testando minha LP',() =>{
 
         cy.wait(2000);
 
-        cy.wait(1000);
 
         cy.get('input[name="name"]').type('Flavio Augusto');
 

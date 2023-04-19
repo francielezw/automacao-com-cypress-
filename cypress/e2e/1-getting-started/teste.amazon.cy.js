@@ -8,7 +8,9 @@ describe('Testando site Amazon',() =>{
 
         cy.wait(2000);
 
-        cy.get('input[name="customerName"]').type('Caio Lorenzo Benedito da Mota');
+        cy.get('input[name="customerName"]').type('Caio Nogueira Benedito da Mota');
+
+mudança de sobrenome que vai para master 
 
         cy.wait(1000);
 
